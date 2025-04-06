@@ -1,0 +1,88 @@
+p,
+h1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 80px;
+  height: auto;
+  border-radius: 40px;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.place-of-residence {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color:hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 8px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: hsl(75, 94%, 57%);
+}
+
+a {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+button:active a {
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution { 
+  font-size: 11px;
+  color: hsl(0, 0%, 100%); 
+  text-align: center; 
+  position: absolute;
+  bottom: 20px;
+}
+
+.attribution a { 
+  color: hsl(75, 94%, 57%); 
+}
