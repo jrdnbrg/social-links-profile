@@ -1,5 +1,6 @@
 p,
-h1 {
+h1,
+.attribution {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
