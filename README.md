@@ -21,7 +21,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/social-links-profile-_oxH4Pc7Zq
 - Live Site URL: http://jrdnbrg.github.io/social-links-profile/
 
 ## My process
